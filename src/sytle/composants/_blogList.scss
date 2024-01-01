@@ -1,0 +1,16 @@
+.BlogList{
+    margin: 0 auto;
+ 
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    padding: 7px;
+    transition: .2s ease;
+    border-radius: 8px;
+    background-color: rgba(236, 243, 243, 0.742);
+    
+    &:hover {
+        padding: 10px;
+        box-shadow: 6px 3px 10px 1.9px rgb(170, 184, 198);
+    }
+}

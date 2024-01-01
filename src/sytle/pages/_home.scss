@@ -1,0 +1,33 @@
+.entete{
+    margin: 0 auto;
+    width: 70vh;
+    width: 70%;
+    display: flex;
+     justify-content: space-around;
+    text-align: center;
+    border-bottom: 1px solid rgb(188, 237, 237);
+     h2{
+        margin: 12px 12px;        
+        font-size: 1.6rem;
+        cursor: pointer;
+    }
+    .navigation {
+        display: flex;
+        gap: 12px;
+        margin: 12px 12px;
+        
+        .p1{
+            background-color: skyblue;
+            padding: 4px;
+            border-radius: 12px;
+            transition: .5s ease;
+            &:hover{
+                background-color: rgba(8, 237, 237, 0.923);
+            }
+        }
+        p{
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+     }
+}
