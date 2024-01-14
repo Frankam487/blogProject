@@ -12,8 +12,10 @@ const ListeDeBlog = ({ personne }) => {
         <h2>{personne.title}</h2>
         <p>Publié par: {personne.name}</p>
         <i>
+          
           Publié le: {""}
           {personne.date}
+          
         </i>
       </div>
     </div>
