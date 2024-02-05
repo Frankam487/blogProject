@@ -5,6 +5,7 @@ const ListeDeBlog = ({ personne }) => {
     personne: propTypes.type,
     name: propTypes.type,
     title: propTypes.type,
+    
   };
   return (
     <div className="BlogList">
